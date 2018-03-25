@@ -1,0 +1,38 @@
+{
+  "name": "react-isomorphic-mpa-startkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p tsconfig.server.json",
+    "start": "nodemon dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.0.44",
+    "@types/koa-router": "^7.0.27",
+    "@types/react": "^16.0.41",
+    "@types/react-dom": "^16.0.4",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "koa": "^2.5.0",
+    "koa-ejs": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2",
+    "universal-webpack": "^0.6.2",
+    "webpack": "^4.2.0"
+  }
+}
