@@ -1,11 +1,47 @@
 {
-  "presets": [
-    ["env", {
-      "targets": {
-        "node": "8.1"
-      }
-    }],
-    "react"
-  ]
+  "env": {
+    "server": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "8.1"
+          }
+        }],
+        "react"
+      ],
+      "plugins": ["dynamic-import-node"]
+    },
+    "client": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": ["last 4 versions", "not ie <= 11"]
+          }
+        }],
+        "react"
+      ],
+      "plugins": [
+        ["transform-runtime", {
+          "polyfill": false,
+          "helpers": false
+        }],
+        "syntax-dynamic-import",
+        "react-hot-loader/babel"
+      ]
+    },
+    "test": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": [
+              "last 4 versions",
+              "not ie <= 11"
+            ]
+          }
+        }],
+        "react"
+      ],
+      "plugins": ["dynamic-import-node"]
+    }
+  }
 }
-

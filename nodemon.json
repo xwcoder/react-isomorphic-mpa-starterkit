@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "app_log"
+  ],
+  "verbose": true,
+  "watch": [
+    "dist/"
+  ],
+  "ext": "js json"
+}
