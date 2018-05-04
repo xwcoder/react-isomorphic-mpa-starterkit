@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index/component/Item item with data 1`] = `
+<li
+  className="list-item"
+>
+  <a
+    href="http://localhost:8000/page/1"
+  >
+    item test title
+  </a>
+  <span
+    className="tag-time"
+  >
+    2018-04-04 12:42:08
+  </span>
+</li>
+`;

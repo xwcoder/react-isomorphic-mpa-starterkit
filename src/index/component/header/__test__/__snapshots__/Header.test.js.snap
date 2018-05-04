@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index/component/Header header with empty title 1`] = `
+<h1
+  className="app-header"
+/>
+`;
+
+exports[`index/component/Header header with title 1`] = `
+<h1
+  className="app-header"
+>
+  今日要闻
+</h1>
+`;

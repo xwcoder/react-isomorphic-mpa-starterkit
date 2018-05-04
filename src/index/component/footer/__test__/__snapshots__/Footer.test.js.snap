@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index/comonent/Footer footer with fetchStatus 0 1`] = `
+<div
+  className="app-footer"
+>
+  loading...
+</div>
+`;
+
+exports[`index/comonent/Footer footer with fetchStatus 1 1`] = `
+<div
+  className="app-footer"
+>
+  loading...
+</div>
+`;
+
+exports[`index/comonent/Footer footer with fetchStatus 2 1`] = `
+<div
+  className="app-footer"
+>
+  loading...
+</div>
+`;
+
+exports[`index/comonent/Footer footer with fetchStatus 3 1`] = `
+<div
+  className="app-footer"
+>
+  加载失败，请刷新重试
+</div>
+`;
+
+exports[`index/comonent/Footer footer with fetchStatus 4 1`] = `""`;

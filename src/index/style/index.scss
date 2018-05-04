@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.app-header {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#root {
+  padding: 0 15px;
+}
+
+.list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+
+  a {
+    display: block;
+    font-size: 16px;
+  }
+
+  .tag-time {
+    font-size: 12px;
+    color: #ccc;
+  }
+}
+
+.app-footer {
+  padding: 8px 0;
+  text-align: center;
+}

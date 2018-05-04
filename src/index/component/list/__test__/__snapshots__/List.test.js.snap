@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index/component/List list with three data 1`] = `
+<ul
+  className="list"
+>
+  <Item
+    data={
+      Object {
+        "docId": 20,
+        "pubTime": 1522816928000,
+        "summary": "还在说“别人家”的包子吗？蒸包子的8个技巧，轻松成为“别人家”的包子！还在说“别人家”的包子吗？蒸包子的8个技巧，轻松成为“别人家”的包子！",
+        "title": "还在说“别人家”的包子吗？蒸包子的8个技巧，轻松成为“别人家”的包子！",
+        "url": "http://kuaibao.qq.com/s/20180202C0H7YJ00",
+      }
+    }
+    key="20"
+  />
+  <Item
+    data={
+      Object {
+        "docId": 7,
+        "pubTime": 1522809128000,
+        "summary": "还在说“别人家”的包子吗？蒸包子的8个技巧，轻松成为“别人家”的包子！还在说“别人家”的包子吗？蒸包子的8个技巧，轻松成为“别人家”的包子！",
+        "title": "还在说“别人家”的包子吗？蒸包子的8个技巧，轻松成为“别人家”的包子！",
+        "url": "http://kuaibao.qq.com/s/20180202A0A93800",
+      }
+    }
+    key="7"
+  />
+  <Item
+    data={
+      Object {
+        "docId": 22,
+        "pubTime": 1522807988000,
+        "summary": "这个国家美女成灾愁嫁人 你想去吗？这个国家美女成灾愁嫁人 你想去吗？",
+        "title": "这个国家美女成灾愁嫁人 你想去吗？",
+        "url": "http://kuaibao.qq.com/s/20180202A0A93800",
+      }
+    }
+    key="22"
+  />
+</ul>
+`;
